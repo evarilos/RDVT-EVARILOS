@@ -97,9 +97,6 @@ app.collection = {
 			case 'twist2Floor':
 				zAxis = 9.53;
 				break;
-			case 'twist2Floor':
-                                zAxis = 0.60;
-                                break;
 			case 'twist3Floor':
 				zAxis = 12.37;
 				break;
@@ -107,7 +104,7 @@ app.collection = {
 				zAxis = 16.05;
 				break;
 			case 'iLab1':
-				zAxis = 3;
+				zAxis = 0;
 				break;
 			case 'iLab2':
 				zAxis = 0;
