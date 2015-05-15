@@ -53,6 +53,13 @@ app.floor = {
 						app.floorPlanScale.iLab2.left_offset_px,
 						(app.floorPlanScale.iLab2.top_offset_px));
 					break;
+
+				case 'mine':
+					axis = app.floor.pixelConverter(val.receiver_location.coordinate_x, val.receiver_location.coordinate_y,
+						app.floorPlanScale.mine.x_unit, app.floorPlanScale.mine.y_unit,
+						app.floorPlanScale.mine.left_offset_px,
+						(app.floorPlanScale.mine.top_offset_px));
+					break;
 			}
 			val.receiver_location.coordinate_x_translated = axis[0];
 			val.receiver_location.coordinate_y_translated = axis[1];

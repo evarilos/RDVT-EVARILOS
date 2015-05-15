@@ -109,6 +109,9 @@ app.collection = {
 			case 'iLab2':
 				zAxis = 0;
 				break;
+			case 'mine':
+				zAxis = 0;
+				break;
 		}
 		$.each(data, function (key, val) {
 			if (val.receiver_location.coordinate_z == zAxis) {
